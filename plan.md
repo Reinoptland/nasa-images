@@ -7,13 +7,13 @@
 ## What steps do we need
 
 - X Create React App
-- install axios (npm install axios)
-- Create a component (Images)
+- X install axios (npm install axios)
+- X Create a component (Images)
   - import React
   - export your component
   - declare function
   - return JSX
-- Add our component to App
+- X Add our component to App
 - Test if your component works (so far)
 - Import useState & useEffect
 - create a state with useEffect (setter / getter)
