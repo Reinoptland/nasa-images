@@ -6,10 +6,6 @@ export default function NasaImages() {
 
   console.log("IMAGES STATE:", images);
 
-  // Simone: 1 console.log data from api
-  // Stefan: 1 console.log with empty array
-  // Rein: 1 console.log -> [], another log with data
-
   useEffect(() => {
     async function fetchImages() {
       // console.log("Check");
@@ -28,11 +24,21 @@ export default function NasaImages() {
     // console.log("Hello");
   }, []);
 
+  if (images.length === 0) {
+    return (
+      <img
+        src={
+          "https://i.pinimg.com/originals/f9/41/ae/f941ae9d16fd7d2957eea6e5b1100d1e.gif"
+        }
+      />
+    );
+  }
+
   return (
     <div>
       {images.map((image) => {
         // console.log("WHAT IS 1 image", image.url);
-        return <img src={image.url} />;
+        return <img key={image.url} src={image.url} />;
       })}
     </div>
   );

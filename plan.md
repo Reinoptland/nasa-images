@@ -27,6 +27,8 @@
 - Display images:
   - X change what you return
   - X map over the data -> create an img and pass it the url
+- Loading indicator
+  - conditional render -> use an if statement
 
 Show simone what you get back from useState
 Implicit return with arrow functions
