@@ -18,12 +18,14 @@
 - X Import useState & useEffect
 - X create a state with useEffect (setter / getter)
 - fetch data from api
-  - useEffect -> needs a callback & empty dependency array
-  - declare an async function
-  - call the async function
-  - await axios.get(url)
-  - check the response
-  - setState -> with the response
+  - X useEffect -> needs a callback & empty dependency array
+  - X declare an async function
+  - X call the async function
+  - X await axios.get(url)
+  - X check the response
+  - X setState -> with the response
 - Display images:
   - change what you return
   - map over the data -> create an img and pass it the url
+
+Show simone what you get back from useState
