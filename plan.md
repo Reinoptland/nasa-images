@@ -14,9 +14,9 @@
   - declare function
   - return JSX
 - X Add our component to App
-- Test if your component works (so far)
-- Import useState & useEffect
-- create a state with useEffect (setter / getter)
+- X Test if your component works (so far)
+- X Import useState & useEffect
+- X create a state with useEffect (setter / getter)
 - fetch data from api
   - useEffect -> needs a callback & empty dependency array
   - declare an async function
