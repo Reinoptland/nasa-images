@@ -25,7 +25,8 @@
   - X check the response
   - X setState -> with the response
 - Display images:
-  - change what you return
-  - map over the data -> create an img and pass it the url
+  - X change what you return
+  - X map over the data -> create an img and pass it the url
 
 Show simone what you get back from useState
+Implicit return with arrow functions

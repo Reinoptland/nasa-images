@@ -28,5 +28,12 @@ export default function NasaImages() {
     // console.log("Hello");
   }, []);
 
-  return <div>NASA IMAGES</div>;
+  return (
+    <div>
+      {images.map((image) => {
+        // console.log("WHAT IS 1 image", image.url);
+        return <img src={image.url} />;
+      })}
+    </div>
+  );
 }
